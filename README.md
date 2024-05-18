@@ -8,3 +8,9 @@ This will typically include resource bars as:
 - combo points
 - arcane orbs
 - eclipse
+
+
+
+
+### Reference
+Event pipeline: https://wowpedia.fandom.com/wiki/AddOn_loading_process#Order_of_events_fired_during_loading

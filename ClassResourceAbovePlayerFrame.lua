@@ -4,8 +4,8 @@ local function AdjustFramePosition()
 end
 
 local frame = CreateFrame("Frame")
-frame:RegisterEvent("PLAYER_ENTERING_WORLD")
+frame:RegisterEvent("SPELLS_CHANGED")
 frame:SetScript("OnEvent", function(self, _)
   AdjustFramePosition()
-  self:UnregisterEvent("PLAYER_ENTERING_WORLD")
+  self:UnregisterEvent("SPELLS_CHANGED")
 end)
