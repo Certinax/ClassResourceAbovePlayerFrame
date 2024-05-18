@@ -1,0 +1,8 @@
+## Interface: 100207
+
+## Title: ClassResourceAbovePlayerFrame
+## Notes: Move any class specific resource bar above player frame
+## Version: 1.0.0
+## Author: Certinax
+
+ClassResourceAbovePlayerFrame.lua
