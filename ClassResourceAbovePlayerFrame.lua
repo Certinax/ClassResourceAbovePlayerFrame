@@ -1,6 +1,6 @@
 local function AdjustFramePosition()
-  PlayerFrameBottomManageFramesContainer:ClearAllPoints();
-  PlayerFrameBottomManageFramesContainer:SetPoint("TOP", PlayerFrame, "TOP", 30, 10);
+  PlayerFrameBottomManagedFramesContainer:ClearAllPoints();
+  PlayerFrameBottomManagedFramesContainer:SetPoint("TOP", PlayerFrame, "TOP", 30, 10);
 end
 
 local frame = CreateFrame("Frame")
